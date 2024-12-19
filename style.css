@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 600px;
+    height: 400px;
+    /* padding: 20px; */
+    color: white;
+    background: red;
+    margin: auto;
+}
+/* body{
+    height: 100%;
+    width: 100%;
+} */
