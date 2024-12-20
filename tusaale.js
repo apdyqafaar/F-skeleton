@@ -1,17 +1,15 @@
-import { Skeleton } from "./F-skeleton-js"
 
-document.addEventListener('DOMContentLoaded',()=>{
+import { Skeleton } from "./F-skeleton-js/main.js"
+document.addEventListener('DOMContentLoaded',()=>skeletonFunction())
 
-const skeleton = Skeleton('card')
-console.log(skeleton)
-let body =document.querySelector('.div')
-body.style.position='relative'
-
-body.appendChild( skeleton)
-
-setTimeout(()=> {
-    body.removeChild(skeleton)
-}, 2000)
-
-})
-
+const skeletonFunction = () => {
+    const skeleton = Skeleton('ecommerce','white')
+    let Elemet =document.querySelector('body')
+    Elemet.style.position='relative'
+    
+    Elemet.appendChild( skeleton)
+    
+    setTimeout(()=> {
+        Elemet.removeChild(skeleton)
+    }, 2000)
+}

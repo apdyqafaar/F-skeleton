@@ -1,11 +1,9 @@
-
-export const dashboard = () => {
-     
-    const dashbord_container = document.createElement('div')
-    dashbord_container.classList.add('dashbord_container')
-    dashbord_container.innerHTML=`
+export const dashboard = (color) => {
+  const dashbord_container = document.createElement("div");
+  dashbord_container.classList.add("dashbord_container");
+  dashbord_container.innerHTML = `
         
-          <div class="grid_container">
+   <div class="grid_container">
 
         <!-- left_side -->
        <div class="left_side">
@@ -70,11 +68,13 @@ export const dashboard = () => {
 
          </div>
 
-      </div>
+   </div>
 
       `;
- 
-      // return dashbord_container;
-      return dashbord_container;
-     
-}
+  if (color == "black") {
+    dashbord_container.style.background='#000'
+    dashbord_container.querySelector('.grid_container').style.background='#000'
+  }
+
+  return dashbord_container;
+};

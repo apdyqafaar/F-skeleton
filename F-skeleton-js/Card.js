@@ -1,5 +1,5 @@
 
-export const card = () =>{
+export const card = (color) =>{
 
     const vertical_card_container = document.createElement('div')
     vertical_card_container.classList.add('vertical_card_container')
@@ -32,5 +32,9 @@ export const card = () =>{
     </div>
     
      `;
+     if (color == "black") {
+      vertical_card_container .background='#000'
+      vertical_card_container .querySelector('.vertical_card ').style.background='#000'
+    }
      return vertical_card_container;
 }
