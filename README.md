@@ -17,7 +17,7 @@ A lightweight and flexible library designed for JavaScript developers. It works 
 - copy on your javascript file this funtion 
   
 
-import { Skeleton } from "./F-skeleton-js/main.js"
+** import { Skeleton } from "./F-skeleton-js/main.js"
 document.addEventListener('DOMContentLoaded',()=>skeletonFunction())
 
 const skeletonFunction = () => {
@@ -30,14 +30,14 @@ const skeletonFunction = () => {
     setTimeout(()=> {
         Elemet.removeChild(skeleton)
     }, 2000)
-}
+} **
 
 
 
 -You have to pass two arguments on skleton variable (const skeleton = Skeleton('ecommerce','white'))  the first one is type of your skleton example [body, dashbord, ecommerce, card ...]
 - You can pass:-
-  # 'body'
-  # 'dashboard'
-  # 'card'
-  # 'ecommerce'
+  - 'body'
+  - 'dashboard'
+  - 'card'
+  - 'ecommerce'
  
