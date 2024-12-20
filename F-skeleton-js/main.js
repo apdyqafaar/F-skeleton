@@ -31,3 +31,23 @@ if(type !== 'body' && type !== 'dashboard' && type !== 'card' && type !== 'verti
 }
  
 }
+
+
+
+// past on your javascript file this code and the pass th two arguments
+
+// import { Skeleton } from "./F-skeleton-js/main.js"
+// document.addEventListener('DOMContentLoaded',()=>skeletonFunction())
+
+// const skeletonFunction = () => {
+
+//     const skeleton = Skeleton('ecommerce','white')
+    
+//     let Elemet =document.querySelector('body')
+//     Elemet.style.position='relative'
+//     Elemet.appendChild( skeleton)
+
+//     setTimeout(()=> {
+//         Elemet.removeChild(skeleton)
+//     }, 2000)
+// } 
