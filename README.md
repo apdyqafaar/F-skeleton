@@ -43,4 +43,4 @@ const skeletonFunction = () => {
   - 'ecommerce'
  
 
- - if you dont see it read the read me file you will get the functon
+ - if you dont see it read the read me file you will get the function
