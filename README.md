@@ -17,20 +17,17 @@ A lightweight and flexible library designed for JavaScript developers. It works 
 - copy on your javascript file this funtion 
   
 
-** import { Skeleton } from "./F-skeleton-js/main.js"
+import { Skeleton } from "./F-skeleton-js/main.js"
 document.addEventListener('DOMContentLoaded',()=>skeletonFunction())
-
 const skeletonFunction = () => {
     const skeleton = Skeleton('ecommerce','white')
     let Elemet =document.querySelector('body')
     Elemet.style.position='relative'
-    
     Elemet.appendChild( skeleton)
-    
     setTimeout(()=> {
         Elemet.removeChild(skeleton)
     }, 2000)
-} **
+} 
 
 
 
