@@ -34,7 +34,8 @@ const skeletonFunction = () => {
 } 
 
 
-
+-and then when you get the funtion you will need to connect skeleton css file on your index file html  
+-also you need to make your script src module ( <script src="your-file_js.js" type="module"></script> )
 -You have to pass two arguments on skleton variable (const skeleton = Skeleton('ecommerce','white'))  the first one is type of your skleton example [body, dashbord, ecommerce, card ...]
 - You can pass:-
   - 'body'
